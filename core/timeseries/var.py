@@ -35,12 +35,13 @@ def fit_var_model(
 
     data = daily_df[vars_to_model].dropna().astype(float)
     n = len(data)
-    if n < 20:
-        raise ValueError(f"Insufficient daily observations ({n}) for VAR modeling.")
+    if n < 12:
+        raise ValueError(f"Insufficient daily observations ({n}) for VAR modeling. Minimum 12 days required.")
 
     var_model = VAR(data)
-    lag_order_res = var_model.select_order(maxlags=min(max_lags, n // 5))
+    lag_order_res = var_model.select_order(maxlags=min(max_lags, max(1, n // 6)))
     selected_lag = int(lag_order_res.aic) if lag_order_res.aic > 0 else 1
+    selected_lag = min(selected_lag, max(1, (n - 2) // 4))
 
     fitted_var = var_model.fit(selected_lag)
 

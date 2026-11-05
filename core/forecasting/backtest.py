@@ -75,10 +75,13 @@ def run_rolling_origin_backtest(
     y_full = daily_df[target_col].values.astype(float)
     n = len(y_full)
 
-    if n < (min_train_size + horizon):
+    if n < (horizon + 3):
         raise ValueError(
-            f"Insufficient daily observations ({n}) for backtesting with min_train_size={min_train_size} and horizon={horizon}."
+            f"Insufficient daily observations ({n}) for backtesting with horizon={horizon}. Minimum {horizon + 3} days required."
         )
+
+    # Adaptively scale minimum training size if history is shorter than 40 days
+    effective_min_train = min(min_train_size, max(5, n - horizon))
 
     model_names = [
         "Naive",
@@ -96,7 +99,7 @@ def run_rolling_origin_backtest(
     }
 
     # Generate roll origins
-    origins = list(range(min_train_size, n - horizon + 1, stride))
+    origins = list(range(effective_min_train, n - horizon + 1, stride))
 
     for orig in origins:
         train_y = y_full[:orig]
@@ -185,7 +188,8 @@ def generate_forecast_with_intervals(
         confidence and prediction intervals, and evaluation backtest metrics.
     """
     y_full = daily_df[target_col].values.astype(float)
-    backtest = run_rolling_origin_backtest(daily_df, target_col=target_col, horizon=min(7, horizon))
+    eval_horizon = min(max(2, len(daily_df) // 4), 7)
+    backtest = run_rolling_origin_backtest(daily_df, target_col=target_col, horizon=eval_horizon)
     best_name = backtest["best_method"]
 
     if method == "auto":

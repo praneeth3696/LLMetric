@@ -41,3 +41,8 @@ This document records architectural, statistical, and design decisions made duri
 ## 7. Quality Control Charts & Change Point Detection
 - **Decision**: Implement Shewhart ($I-MR$), EWMA ($\lambda=0.2, L=3.0$), and CUSUM ($k=0.5\sigma, h=5\sigma$). For distribution shift detection, use a rolling two-sample Kolmogorov-Smirnov (K-S) test comparing recent windows to a stable baseline window.
 - **Reason**: Catches sudden spikes (Shewhart), subtle drift (CUSUM/EWMA), and unannounced model swaps (K-S test on output token distributions) with quantified detection delays and false alarm rates.
+
+## 8. Backend Architecture & SQLite Invalidation Caching
+- **Decision**: FastAPI service backed by SQLite with an `analysis_cache` table keyed by dataset hash and analysis section name. When new data is generated or uploaded, cache entries are invalidated and background status is tracked in `task_status`.
+- **Reason**: Enables sub-100ms response times for all analytical GET endpoints once computed, while preventing UI freeze on initial cold runs.
+
