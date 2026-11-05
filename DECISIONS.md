@@ -46,3 +46,16 @@ This document records architectural, statistical, and design decisions made duri
 - **Decision**: FastAPI service backed by SQLite with an `analysis_cache` table keyed by dataset hash and analysis section name. When new data is generated or uploaded, cache entries are invalidated and background status is tracked in `task_status`.
 - **Reason**: Enables sub-100ms response times for all analytical GET endpoints once computed, while preventing UI freeze on initial cold runs.
 
+## 9. Frontend Architecture & Design Language
+- **Decision**: Vite + React 18 + TypeScript + Recharts. Interface adheres to strict data-dense, calm aesthetics: zero decorative gradients, zero box-shadows, zero floating animations, zero emoji, and a system monospace/sans-serif typographic hierarchy.
+- **Reason**: Provides an uncluttered, authoritative observability experience suitable for rigorous academic evaluation and production operations.
+
+## 10. Traceability Matrix & Methodology View
+- **Decision**: Build an explicit "Methodology" tab directly into the UI mapping each of the 8 syllabus topics to its mathematical formulation, underlying assumptions, code files, and anticipated viva examination questions.
+- **Reason**: Guarantees complete transparency during viva demonstrations, enabling immediate navigation between empirical plots and statistical theory.
+
+## 11. Offline Reliability & Deterministic Extensions
+- **Decision**: The system has zero mandatory external API dependencies. Synthetic generation is deterministic (seed=42). Weekly insights are generated via a rule-based deterministic summary engine with an optional Anthropic API rewrite fallback. Budget breach risk is computed via normal-approximation cumulative forecast integrals.
+- **Reason**: Prevents demo failures due to network disruption, quota exhaustion, or external provider outages.
+
+
