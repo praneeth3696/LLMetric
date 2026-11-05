@@ -1,0 +1,38 @@
+[
+  {
+    "id": "incident_model_swap",
+    "name": "Silent Model Swap (Distribution Shift)",
+    "type": "model_swap",
+    "start_day": 35,
+    "end_day": 42,
+    "target_model": "gpt-4o-mini",
+    "description": "Upstream provider silently swapped the model backend, causing an increase in completion token distribution and baseline latency."
+  },
+  {
+    "id": "incident_latency_regression",
+    "name": "Upstream Latency Regression",
+    "type": "latency_regression",
+    "start_day": 55,
+    "end_day": 57,
+    "target_model": "all",
+    "description": "Provider networking routing degradation introduced an abrupt +400ms server overhead across all requests."
+  },
+  {
+    "id": "incident_cost_drift",
+    "name": "Prompt Bloat Cost Drift",
+    "type": "cost_drift",
+    "start_day": 70,
+    "end_day": 75,
+    "target_model": "claude-3-haiku",
+    "description": "A developer prompt update appended large system prompt boilerplate, drifting prompt token usage and spend upwards."
+  },
+  {
+    "id": "incident_failure_spike",
+    "name": "Transient Rate Limit & Failure Spike",
+    "type": "failure_spike",
+    "start_day": 78,
+    "end_day": 79,
+    "target_model": "all",
+    "description": "A sudden concurrency burst triggered upstream rate limits and socket timeouts."
+  }
+]

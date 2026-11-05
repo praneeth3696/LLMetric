@@ -1,0 +1,122 @@
+timestamp,request_id,feature,model,prompt_tokens,completion_tokens,latency_ms,status,retry_count,cache_hit,prompt_text,cost_usd
+2026-08-01T00:02:37.693557+00:00,5333288f-aa64-7fcb-72ac-cf4d6e9b539a,chat,llama-3-70b,148,199,527.56,ok,0,0,Please summarize this customer support transcript and highlight unresolved complaints.,0.000245
+2026-08-01T00:03:49.742122+00:00,ba4159d2-b0ed-ec0e-bb3e-0ddb55c60848,chat,gpt-4o-mini,452,208,315.47,ok,0,0,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000193
+2026-08-01T00:09:15.442171+00:00,d2a363d0-ba31-3b52-bebc-be2abd1f9455,search,gpt-4o-mini,469,162,73.49,ok,0,1,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000132
+2026-08-01T00:11:40.699348+00:00,1c06517f-560d-42b2-4a56-e17e344c3772,chat,gpt-4o-mini,206,249,74.79,ok,0,1,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000165
+2026-08-01T00:21:16.293485+00:00,82a2351e-7105-c556-e3ec-3ef67972c35d,chat,gpt-4o-mini,299,215,283.01,ok,0,0,Summarize the executive summary of the quarterly financial report into 3 bullet points.,0.000174
+2026-08-01T00:28:00.195613+00:00,8555fcc9-fb5a-0973-48c3-a6bc7c9fb145,chat,gpt-4o-mini,304,297,481.47,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000224
+2026-08-01T00:33:16.505233+00:00,29fb402d-97a9-9476-df12-4bdb3b86ff04,search,gpt-4o-mini,366,213,54.79,ok,0,1,Write a unit test for my authentication system module.,0.000155
+2026-08-01T00:37:53.991837+00:00,7d73f5a0-9d24-9e15-0bba-eac1995a726a,search,gpt-4o-mini,423,180,505.63,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000171
+2026-08-01T00:40:58.976232+00:00,14fbab2b-da53-cc4c-0dac-d4ec0ee95bfd,search,claude-3-haiku,535,213,68.08,ok,0,1,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.00028
+2026-08-01T00:44:41.143761+00:00,4e5c9477-fa55-61c8-58fe-a01014cb2d15,search,gpt-4o-mini,463,171,265.31,ok,0,0,Write a unit test for my authentication system module.,0.000172
+2026-08-01T00:45:29.115864+00:00,5d845844-5575-2af4-afb4-e154e769858b,summarize,claude-3-haiku,2474,349,535.32,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.001055
+2026-08-01T00:46:42.180589+00:00,e09f5b4d-0d50-d58d-b533-d150a99ecb1b,summarize,claude-3-haiku,1557,394,661.15,ok,0,0,Write a unit test for my authentication system module.,0.000882
+2026-08-01T00:49:39.472219+00:00,95c07fea-6dc7-a3f9-d94d-ef3afc57883c,chat,gpt-4o-mini,343,326,560.82,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000247
+2026-08-01T00:53:35.236037+00:00,7aa8e633-fa36-f1f3-4b4a-84a26897794a,chat,claude-3-haiku,605,170,412.21,ok,0,0,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000364
+2026-08-01T00:58:14.512888+00:00,5b85626f-66d9-28f8-3053-0cfe5c52cb26,search,claude-3-haiku,395,153,353.87,ok,0,0,What is the difference between synchronous and asynchronous execution in Node.js?,0.00029
+2026-08-01T01:05:40.080005+00:00,e3087d2a-a93e-9698-aab3-742e1f9cdaee,search,gpt-4o-mini,291,183,399.53,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000153
+2026-08-01T01:07:21.928557+00:00,076f55d4-9ea1-2140-6734-fccbe6ad8776,search,gpt-4o-mini,253,156,372.39,ok,0,0,What is the difference between synchronous and asynchronous execution in Node.js?,0.000132
+2026-08-01T01:09:11.823540+00:00,aeed6df6-b4dd-13de-dbdf-294608963274,search,claude-3-haiku,293,158,259.61,ok,0,0,"SELECT users.id, orders.total FROM users JOIN orders ON users.id = orders.user_id WHERE orders.status = 'urgent' AND orders.cost > 500;",0.000271
+2026-08-01T01:10:45.365909+00:00,f9cd2c98-bfc8-9c5b-179c-6b25f6a83a31,chat,llama-3-70b,195,154,88.8,ok,0,1,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000237
+2026-08-01T01:14:27.494070+00:00,0d83d193-1c35-5327-79ff-a574bec1901d,chat,gpt-4o-mini,320,266,516.51,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000208
+2026-08-01T01:15:44.857857+00:00,32f7c464-1116-06d4-51dd-6751762003fc,code_gen,gpt-4o-mini,796,475,108.21,ok,0,1,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000345
+2026-08-01T01:18:57.344587+00:00,f2387fa4-954d-3c92-4a3c-e7f2a02c906a,chat,gpt-4o-mini,263,238,436.08,ok,0,0,Write a unit test for my authentication system module.,0.000182
+2026-08-01T01:22:25.167824+00:00,2c87f4d7-c372-facc-c446-14e761a5683d,chat,gpt-4o-mini,216,291,96.72,ok,0,1,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000191
+2026-08-01T01:35:57.778049+00:00,255578d3-3ac1-3b89-6398-b5522a1ca483,summarize,gpt-4o-mini,1679,323,571.35,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000446
+2026-08-01T01:39:41.980547+00:00,d2dcc723-cba1-016f-3f2a-567a315a452a,search,claude-3-haiku,143,170,344.38,ok,0,0,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000248
+2026-08-01T01:44:48.442601+00:00,ce91d32e-3ae0-8caf-2733-463cbd18004c,code_gen,gpt-4o-mini,543,545,771.11,ok,0,0,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000408
+2026-08-01T01:46:19.244756+00:00,9b423bd9-bcae-3f7d-c5f6-0fa7b2a2cd33,chat,gpt-4o-mini,419,323,658.06,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000257
+2026-08-01T01:49:52.005620+00:00,6c28f298-484a-deb1-0197-d880b91558dc,code_gen,claude-3-haiku,863,373,690.84,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000682
+2026-08-01T01:52:28.423347+00:00,852a2d23-9e87-bef5-002d-79f559815d2b,chat,claude-3-haiku,490,265,90.19,ok,0,1,Generate a structured JSON schema for user registration payload with validation constraints.,0.000344
+2026-08-01T01:56:12.527342+00:00,9697cbb8-c036-0f97-2661-d60ceb245518,summarize,gpt-4o-mini,1791,271,454.53,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000431
+2026-08-01T02:05:15.752443+00:00,ea02a4af-4002-658b-d144-2603c4527e18,code_gen,claude-3-haiku,1315,427,466.24,ok,0,0,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000862
+2026-08-01T02:07:01.572837+00:00,7c60fb83-1002-1feb-4162-fcbccae202c8,summarize,gpt-4o-mini,1224,207,383.74,ok,0,0,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000308
+2026-08-01T02:07:11.040919+00:00,de53c5ff-c1ab-2206-9b50-6aaa1446f322,chat,claude-3-haiku,72,223,73.83,ok,0,1,Can you provide a simple explanation of transformer attention mechanisms?,0.000281
+2026-08-01T02:27:57.546551+00:00,6c02f0ce-2183-bd32-6907-bb033c961fe9,search,claude-3-haiku,422,201,56.55,ok,0,1,Can you provide a simple explanation of transformer attention mechanisms?,0.000262
+2026-08-01T02:29:31.751576+00:00,75e92dcd-8e7b-93f6-32cc-113df73bad49,summarize,gpt-4o-mini,1520,311,654.78,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000415
+2026-08-01T02:31:21.474392+00:00,b064ded1-21df-85d6-011d-5172065b470a,code_gen,llama-3-70b,999,418,820.97,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.00092
+2026-08-01T02:33:53.822201+00:00,ca2a6b31-cd27-0804-0e72-50454c509819,search,claude-3-haiku,535,183,53.85,ok,0,1,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000242
+2026-08-01T02:34:20.749851+00:00,e1245c69-461b-522c-201d-045f20077b17,summarize,gpt-4o-mini,1185,347,506.78,error,2,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000386
+2026-08-01T02:35:58.536389+00:00,a1412725-dbe6-8f3f-99a8-2ef22103908a,chat,gpt-4o-mini,221,180,76.73,ok,0,1,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000125
+2026-08-01T02:45:50.124204+00:00,b93f2f76-b267-2382-7b32-ddb03ecc6e67,code_gen,gpt-4o-mini,1063,413,791.41,ok,0,0,What is the difference between synchronous and asynchronous execution in Node.js?,0.000407
+2026-08-01T02:47:57.280979+00:00,a4108b6d-04cc-1bc9-0cae-699c03c79966,search,gpt-4o-mini,607,182,405.8,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.0002
+2026-08-01T02:55:52.450448+00:00,8813a3eb-a037-3b09-22b9-754cea431c6b,code_gen,gpt-4o-mini,683,275,321.11,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000267
+2026-08-01T03:18:58.370947+00:00,639d5bf5-e7be-9c13-7ac2-d6fee4961773,chat,gpt-4o-mini,457,176,267.37,ok,0,0,Write a unit test for my authentication system module.,0.000174
+2026-08-01T03:21:38.366404+00:00,34ab6855-040c-bf02-4b34-caac7ecd8435,search,claude-3-haiku,446,117,262.74,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000258
+2026-08-01T03:25:53.105503+00:00,2e03548e-55b1-5233-1d46-cdd673a837cd,chat,llama-3-70b,430,178,569.86,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000394
+2026-08-01T03:32:56.919781+00:00,c5cece7a-59cf-2578-a013-3feb06819226,chat,llama-3-70b,518,193,106.41,ok,0,1,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000458
+2026-08-01T03:33:56.778842+00:00,56452196-e875-26b9-7940-487e4a6d8f03,chat,gpt-4o-mini,296,247,59.63,ok,0,1,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.00017
+2026-08-01T03:34:20.848559+00:00,06fc239d-8c32-e00e-3e49-96b90f0cda5d,chat,gpt-4o-mini,250,234,79.31,ok,0,1,Please summarize this customer support transcript and highlight unresolved complaints.,0.000159
+2026-08-01T03:37:33.644931+00:00,5cb01dda-d7a7-af5e-be03-3a8142274d6e,chat,claude-3-haiku,429,243,473.49,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000411
+2026-08-01T03:38:52.614536+00:00,326e8aff-46a4-d6ea-40d0-04a1c1387ea1,search,gpt-4o-mini,296,130,260.61,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000122
+2026-08-01T03:39:08.759003+00:00,569eba4e-aab9-7424-1dcd-359949b70791,chat,claude-3-haiku,458,264,86.12,ok,0,1,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000341
+2026-08-01T03:42:07.207852+00:00,f2a919fc-943e-edc2-8a4a-a0a6d37e40e7,search,gpt-4o-mini,310,187,60.46,ok,0,1,"Hello! Can you help me write a Python function: ```python
+def process_data(records):
+    return [r for r in records if r.valid]
+``` to filter records?",0.000135
+2026-08-01T03:47:14.755999+00:00,8a737fbb-d6fb-28cf-2ba7-a970bafb50a6,code_gen,gpt-4o-mini,618,417,554.27,ok,0,0,Write a unit test for my authentication system module.,0.000343
+2026-08-01T04:02:27.409057+00:00,386d0ce7-3492-874c-effb-aab55b3a1f97,search,llama-3-70b,295,83,483.29,ok,0,0,Write a unit test for my authentication system module.,0.00024
+2026-08-01T04:05:05.349380+00:00,1a868857-bf41-2973-fd32-b7b77e7cc56c,chat,claude-3-haiku,315,208,292.95,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000339
+2026-08-01T04:24:41.673608+00:00,0cfaca2f-c367-61ff-c76d-0ddb18f06cb3,chat,gpt-4o-mini,370,199,392.49,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000175
+2026-08-01T04:27:53.904442+00:00,6671895d-c38f-1915-b6d5-31112e82d259,summarize,gpt-4o-mini,1649,292,727.94,ok,0,0,Please summarize this customer support transcript and highlight unresolved complaints.,0.000423
+2026-08-01T04:29:22.919071+00:00,43895bf6-b6a7-80c0-f2e5-cb809f94758a,code_gen,gpt-4o-mini,676,469,126.19,ok,0,1,"SELECT users.id, orders.total FROM users JOIN orders ON users.id = orders.user_id WHERE orders.status = 'urgent' AND orders.cost > 500;",0.000332
+2026-08-01T04:33:19.662156+00:00,938c08be-3e5a-3337-030d-3b974e24b19e,chat,gpt-4o-mini,340,117,57.34,ok,0,1,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,9.6e-05
+2026-08-01T04:46:38.435259+00:00,73986400-fbde-8248-2340-850fdac4bd8f,summarize,claude-3-haiku,1204,378,647.4,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000773
+2026-08-01T04:47:37.255742+00:00,956bb2ac-011a-7341-1f25-8cd0d777edab,search,claude-3-haiku,383,212,439.33,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000361
+2026-08-01T04:48:07.415233+00:00,12a7a651-b6c7-91f4-fa6a-90c797684283,chat,claude-3-haiku,292,267,579.23,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000407
+2026-08-01T04:58:40.501125+00:00,589a8274-8461-8b43-8454-1e84d39e47ca,summarize,llama-3-70b,1885,162,481.05,timeout,1,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.00124
+2026-08-01T04:59:07.944610+00:00,6add0373-574c-ff34-63f8-25faf48f544d,code_gen,claude-3-haiku,643,443,775.31,ok,0,0,What is the difference between synchronous and asynchronous execution in Node.js?,0.000714
+2026-08-01T05:00:04.439025+00:00,e8fd11fc-598c-5614-e2a0-8d5ca88df0bb,chat,gpt-4o-mini,351,202,326.14,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000174
+2026-08-01T05:00:05.978548+00:00,67fabda2-a591-5051-3636-c2d261e9fe13,chat,claude-3-haiku,426,246,535.66,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000414
+2026-08-01T05:06:43.453336+00:00,ad9a13bd-e87a-71d3-41f3-3051ca0eca1f,chat,gpt-4o-mini,135,225,74.93,ok,0,1,What is the difference between synchronous and asynchronous execution in Node.js?,0.000145
+2026-08-01T05:14:32.938271+00:00,38685bcb-3aef-dd81-6beb-101f9beee4fd,summarize,gpt-4o-mini,1603,334,504.94,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000441
+2026-08-01T05:15:37.254756+00:00,759a60e1-157d-406a-266e-448942f9572a,chat,llama-3-70b,340,327,107.95,ok,0,1,Please summarize this customer support transcript and highlight unresolved complaints.,0.000459
+2026-08-01T05:19:20.965587+00:00,eb9909fa-f529-14d6-227d-94305e2ba604,summarize,gpt-4o-mini,1376,232,524.21,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000346
+2026-08-01T05:19:59.138980+00:00,3ddab48d-c136-7786-f12a-6b6528fc6cc0,summarize,gpt-4o-mini,1917,391,690.23,ok,0,0,"SELECT users.id, orders.total FROM users JOIN orders ON users.id = orders.user_id WHERE orders.status = 'urgent' AND orders.cost > 500;",0.000522
+2026-08-01T05:25:52.777273+00:00,ad1e9aec-02b7-bb83-c0bb-4ff1d5393103,search,claude-3-haiku,509,174,256.99,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000345
+2026-08-01T05:29:22.207223+00:00,c9311f65-0aaa-f628-e9aa-bdae6c220378,chat,gpt-4o-mini,380,189,344.04,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.00017
+2026-08-01T05:30:29.402481+00:00,cc6547e1-7252-c6bb-3eac-f9a4a493dce0,code_gen,gpt-4o-mini,753,608,751.38,ok,0,0,Please summarize this customer support transcript and highlight unresolved complaints.,0.000478
+2026-08-01T05:46:50.092095+00:00,c72ee791-6423-c371-130e-c81a8f6557c7,summarize,gpt-4o-mini,1564,404,416.19,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000477
+2026-08-01T05:50:28.333342+00:00,a7c5af74-5d82-ec05-d834-d9353177aefa,chat,llama-3-70b,242,200,632.08,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000301
+2026-08-01T05:51:45.952429+00:00,6875d69b-5f30-4792-37b8-bb94eb1b7a62,search,gpt-4o-mini,575,176,395.28,ok,0,0,Summarize the executive summary of the quarterly financial report into 3 bullet points.,0.000192
+2026-08-01T06:05:56.128218+00:00,62ed9f3b-bd41-68e5-885b-0bba6e87b319,chat,gpt-4o-mini,332,315,478.01,ok,0,0,Summarize the executive summary of the quarterly financial report into 3 bullet points.,0.000239
+2026-08-01T06:07:51.991295+00:00,27a1d2b5-70d0-5322-4d11-f1d972ce0593,chat,gpt-4o-mini,220,174,71.84,ok,0,1,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000121
+2026-08-01T06:09:46.337402+00:00,931b5b09-fd15-a5f0-4756-0613623c53e3,summarize,gpt-4o-mini,1758,415,514.95,ok,0,0,Analyze the following logs for critical error messages and stack traces: [CRITICAL] Connection reset by peer.,0.000513
+2026-08-01T06:11:08.758086+00:00,bc863f6f-6c16-835c-4aaf-ba214578165c,chat,llama-3-70b,330,332,659.01,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000457
+2026-08-01T06:12:07.517166+00:00,9df3b5f5-39f5-2c35-fecb-152ad3b4d040,search,claude-3-haiku,516,245,458.55,ok,0,0,Please summarize this customer support transcript and highlight unresolved complaints.,0.000435
+2026-08-01T06:14:36.948283+00:00,09f98366-6b61-5487-d7af-2988131013a9,summarize,gpt-4o-mini,1859,334,111.42,ok,0,1,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.00034
+2026-08-01T06:16:41.208085+00:00,5ea228d4-f7c1-b0eb-88f3-8eae91246557,summarize,gpt-4o-mini,1714,64,206.68,ok,0,0,"SELECT users.id, orders.total FROM users JOIN orders ON users.id = orders.user_id WHERE orders.status = 'urgent' AND orders.cost > 500;",0.000295
+2026-08-01T06:20:22.119915+00:00,4aa84236-037c-ec35-3b10-7decbc5df187,chat,gpt-4o-mini,514,190,98.73,ok,0,1,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000153
+2026-08-01T06:22:37.941538+00:00,6af2c365-41a9-5075-3dd2-41cc231d0821,chat,gpt-4o-mini,345,138,314.68,ok,0,0,Debug this error in my SQL query: syntax error near unexpected token 'WHERE'. Urgent fix needed.,0.000135
+2026-08-01T06:23:38.785137+00:00,bc9c0a76-77e1-8a4d-8791-f2a8a2f381a8,chat,claude-3-haiku,337,233,76.9,ok,0,1,Generate a structured JSON schema for user registration payload with validation constraints.,0.0003
+2026-08-01T06:28:06.299908+00:00,088676fc-97f3-93d8-b9dc-6a95b0114e0a,code_gen,llama-3-70b,942,281,661.18,ok,0,0,Can you provide a simple explanation of transformer attention mechanisms?,0.000778
+2026-08-01T06:31:19.244285+00:00,6cb191f2-b5dc-e9b6-9e29-c85d73c416bc,summarize,llama-3-70b,1699,298,646.92,ok,0,0,Summarize the executive summary of the quarterly financial report into 3 bullet points.,0.001238
+2026-08-01T06:41:04.423464+00:00,db769754-3e4f-576b-03c1-8230537fa6a5,search,llama-3-70b,435,210,548.6,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000423
+2026-08-01T06:45:12.616427+00:00,9e9ee0aa-808b-9c21-b002-d0a7e636aabb,chat,llama-3-70b,300,258,588.96,ok,0,0,What is the difference between synchronous and asynchronous execution in Node.js?,0.000381
+2026-08-01T06:52:51.729787+00:00,f829c8e9-9729-f8aa-7af8-122cb2eb1d21,chat,llama-3-70b,201,306,103.51,ok,0,1,Can you provide a simple explanation of transformer attention mechanisms?,0.00036
+2026-08-01T06:57:17.634211+00:00,2e82d833-a992-e8f5-0eb1-c58afe7dc48b,summarize,gpt-4o-mini,1498,363,670.47,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000442
+2026-08-01T07:01:23.619296+00:00,5d4ad04e-36bd-a988-a98d-d34720e44811,search,claude-3-haiku,410,183,443.47,ok,0,0,Generate a structured JSON schema for user registration payload with validation constraints.,0.000331
+2026-08-01T07:14:24.814594+00:00,cc78b8d2-02bb-9a57-861a-022b6bbdbe06,chat,gpt-4o-mini,350,175,58.6,ok,0,1,Generate a structured JSON schema for user registration payload with validation constraints.,0.000131
+2026-08-01T07:14:39.138003+00:00,3b27636c-a2bd-fc64-703c-ac8bf64ce0bc,search,gpt-4o-mini,310,169,315.72,ok,0,0,Please summarize this customer support transcript and highlight unresolved complaints.,0.000148
+2026-08-01T07:15:18.384952+00:00,d4c81c38-1fb3-1aa0-3859-583551b40fa6,chat,claude-3-haiku,354,214,71.16,ok,0,1,Summarize the executive summary of the quarterly financial report into 3 bullet points.,0.000276
+2026-08-01T07:19:13.768182+00:00,311ea60f-b387-0466-3952-fcb212198afd,summarize,gpt-4o-mini,1741,293,658.35,ok,0,0,Quick chat: recommend three great books on distributed systems and reliability engineering.,0.000437
+2026-08-01T07:19:19.976426+00:00,e0a2c0f9-e66b-a9f4-49af-73dfed6b5974,summarize,gpt-4o-mini,1431,368,651.27,ok,0,0,Draft a concise follow-up email to the engineering leadership regarding sprint deliverables.,0.000435
+2026-08-01T07:20:02.800561+00:00,c95bf4be-675b-088d-00e0-4a62b9a61bd4,summarize,claude-3-haiku,1491,302,399.72,ok,0,0,"SELECT users.id, orders.total FROM users JOIN orders ON users.id = orders.user_id WHERE orders.status = 'urgent' AND orders.cost > 500;",0.00075
