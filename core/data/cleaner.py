@@ -116,3 +116,4 @@ def clean_request_logs(
 
     report["final_rows"] = len(clean_df)
     return clean_df, report
+

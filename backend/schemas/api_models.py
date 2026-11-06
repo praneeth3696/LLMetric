@@ -123,3 +123,4 @@ class InsightsResponse(BaseModel):
     is_llm_rewritten: bool
     engine: str
     bullets: List[str]
+

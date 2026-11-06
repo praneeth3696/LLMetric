@@ -123,3 +123,4 @@ def run_full_analytics_suite(
             "weekly_insights": insights_res,
         },
     }
+

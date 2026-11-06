@@ -121,3 +121,4 @@ To objectively evaluate Statistical Quality Control (SQC) charts and change-poin
 - **Persistence**: SQLite configured with Write-Ahead Logging (`PRAGMA journal_mode=WAL`) and foreign keys enabled.
 - **Performance Caching**: Two-tier caching in SQLite (`analysis_cache` table) keyed by dataset hash and section name. Ensures analytical GET endpoints respond in $< 5$ milliseconds on cache hits.
 - **Frontend**: React 18 + TypeScript + Vite styled with a calm, neutral, information-dense theme utilizing system font stacks, zero animations, and Recharts visualization components.
+

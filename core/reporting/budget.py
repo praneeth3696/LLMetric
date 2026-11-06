@@ -82,3 +82,4 @@ def calculate_budget_projection(
             f"Breach risk is {breach_prob_pct}% ({status})."
         ),
     }
+

@@ -222,3 +222,4 @@ All detectors are evaluated against ground-truth incident records:
 - **Budget Alerting**: Calculates projected month-end cumulative spend using forecast trajectory, computes breach probability via normal approximation of cumulative forecast variance:
   $$P(\text{Spend} > \text{Budget}) = 1 - \Phi\left(\frac{\text{Budget} - \hat{\mu}_{\text{end}}}{\hat{\sigma}_{\text{end}}}\right)$$
 - **Weekly Insights Generator**: Fully deterministic template generating structured English summaries from computed stats, with optional Anthropic Claude API enrichment when `ANTHROPIC_API_KEY` is present.
+

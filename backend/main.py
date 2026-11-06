@@ -129,3 +129,4 @@ def health_check() -> HealthResponse:
             total_requests=0,
             current_dataset_version=f"error: {str(e)}",
         )
+

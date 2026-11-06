@@ -161,3 +161,4 @@ def evaluate_qc_detectors(
             "model_swap": ks_res,
         },
     }
+

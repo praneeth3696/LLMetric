@@ -176,3 +176,4 @@ def fit_simple_regression(
         "intervals": interval_data,
         "interpretations": interpretations,
     }
+

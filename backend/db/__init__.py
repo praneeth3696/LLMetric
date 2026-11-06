@@ -25,3 +25,4 @@ __all__ = [
     "set_cached_analysis",
     "DEFAULT_DB_PATH",
 ]
+

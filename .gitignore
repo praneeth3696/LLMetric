@@ -34,3 +34,4 @@ data/*.json
 .idea/
 .vscode/
 *.swp
+

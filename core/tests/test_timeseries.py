@@ -67,3 +67,4 @@ def test_var_and_granger_causality():
     ]
     assert len(gc_matches) == 1
     assert gc_matches[0]["f_statistic"] > 0
+

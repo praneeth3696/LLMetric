@@ -43,3 +43,4 @@ def seasonal_naive_forecast(history: np.ndarray, horizon: int, season_length: in
         idx = -season_length + (h % season_length)
         forecast.append(history[idx])
     return np.array(forecast)
+

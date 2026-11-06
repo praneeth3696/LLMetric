@@ -11,3 +11,4 @@ __all__ = [
     "generate_analytical_figures",
     "run_full_analytics_suite",
 ]
+

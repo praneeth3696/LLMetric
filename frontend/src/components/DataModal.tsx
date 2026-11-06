@@ -175,3 +175,4 @@ export const DataModal: React.FC<DataModalProps> = ({ isOpen, onClose, onSuccess
     </div>
   );
 };
+

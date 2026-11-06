@@ -79,3 +79,4 @@ def test_model_swap_ks_detector():
 
     assert res["alarm_count"] > 0
     assert any(a["date"] >= "2026-01-26" for a in res["alarms"])
+

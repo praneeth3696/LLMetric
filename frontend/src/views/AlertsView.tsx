@@ -243,3 +243,4 @@ export const AlertsView: React.FC<AlertsViewProps> = ({ alerts, isLoading }) => 
     </div>
   );
 };
+

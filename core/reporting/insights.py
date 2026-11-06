@@ -86,3 +86,4 @@ def generate_weekly_insights(
             pass
 
     return result
+

@@ -87,3 +87,4 @@ def _process_loaded_df(
     else:
         validate_dataframe_schema(df)
         return df, {"rows": len(df), "columns": list(df.columns)}
+

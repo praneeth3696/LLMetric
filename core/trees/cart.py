@@ -191,3 +191,4 @@ def _extract_cart_rules(tree_model: DecisionTreeClassifier, feature_names: List[
 
     recurse(0, [])
     return rules
+

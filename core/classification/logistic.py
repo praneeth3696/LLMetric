@@ -245,3 +245,4 @@ def _hosmer_lemeshow_test(y_true: np.ndarray, y_probs: np.ndarray, num_groups: i
         ),
         "decile_groups": group_table,
     }
+

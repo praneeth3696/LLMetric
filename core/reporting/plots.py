@@ -229,3 +229,4 @@ def generate_analytical_figures(
         saved_files.append(p6)
 
     return saved_files
+

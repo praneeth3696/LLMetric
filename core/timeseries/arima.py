@@ -124,3 +124,4 @@ def fit_auto_arima(
         "forecast": forecast_items,
         "search_history": sorted(search_history, key=lambda x: x["aic"])[:5],
     }
+

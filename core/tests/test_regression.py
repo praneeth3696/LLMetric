@@ -95,3 +95,4 @@ def test_multiple_regression_suite_and_diagnostics():
     # 6. Stepwise AIC history
     stepwise = res["model_building_procedure"]["step_history"]
     assert len(stepwise) >= 2
+

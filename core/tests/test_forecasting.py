@@ -90,3 +90,4 @@ def test_forecast_with_intervals():
 
     for item in fc["forecast"]:
         assert item["lower_95"] <= item["lower_80"] <= item["forecast"] <= item["upper_80"] <= item["upper_95"]
+

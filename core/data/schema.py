@@ -71,3 +71,4 @@ def validate_dataframe_schema(df: pd.DataFrame) -> None:
     invalid_statuses = actual_statuses - valid_statuses
     if invalid_statuses:
         raise ValueError(f"Invalid status values found: {invalid_statuses}. Allowed: {valid_statuses}")
+

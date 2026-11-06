@@ -64,3 +64,4 @@ def test_deterministic_insights():
     assert len(insights["bullets"]) >= 3
     assert "LLMetrics Executive Weekly Summary" in insights["summary_text"]
     assert insights["is_llm_rewritten"] is False
+

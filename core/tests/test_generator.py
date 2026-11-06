@@ -62,3 +62,4 @@ def test_cleaner_iqr_outlier_detection():
 
     _, report = clean_request_logs(df_dirty, iqr_multiplier=3.0)
     assert report["outliers_detected"]["latency_ms"]["count"] >= 1
+

@@ -201,3 +201,4 @@ def compute_cusum_chart(
         "points": points,
         "alarms": alarms,
     }
+

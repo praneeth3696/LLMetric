@@ -182,3 +182,4 @@ def run_eda(df: pd.DataFrame) -> Dict[str, Any]:
         "bivariate": bivariate,
         "multivariate": multivariate,
     }
+

@@ -133,3 +133,4 @@ def check_task_status() -> TaskStatusResponse:
     """Returns background analytics processing status and progress percentage."""
     st = get_current_task_status()
     return TaskStatusResponse(**st)
+

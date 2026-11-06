@@ -110,3 +110,4 @@ def analyze_text_features(df: pd.DataFrame) -> Dict[str, Any]:
             "increased failure and timeout rates, reflecting their heavier token requirements and higher parsing latency."
         ),
     }
+

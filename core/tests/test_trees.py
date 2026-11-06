@@ -120,3 +120,4 @@ def test_model_comparison_holdout():
         assert 0.0 <= row["accuracy"] <= 1.0
         assert 0.0 <= row["roc_auc"] <= 1.0
         assert -1.0 <= row["gini_coefficient"] <= 1.0
+

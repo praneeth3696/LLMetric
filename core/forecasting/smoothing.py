@@ -61,3 +61,4 @@ def holt_winters_forecast(history: np.ndarray, horizon: int, season_length: int 
 
 def naive_forecast_fallback(history: np.ndarray, horizon: int) -> np.ndarray:
     return np.full(horizon, fill_value=history[-1] if len(history) > 0 else 0.0)
+
